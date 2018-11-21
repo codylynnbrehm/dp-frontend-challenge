@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <title>Frontend Challenge</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+  </head>
+
+  <body>
+
+    <section class="container">
+
+      <header>
+          <img src="images/status_bar.png">
+          <img src="images/bus_stop_info.png">
+      </header>
+
+      <switcher>
+          <img src="images/switcher.png">
+      </switcher>
+
+        <div>
+          <table>
+            <thead>
+              <tr class="list-header">
+                <th>Line</th>
+                <th>Destination</th>
+                <th>Arriving</th>
+                <th></th>
+              </tr>
+            </thead>
+          </table>
+
+          <div class="direction-eastbound">
+                <h2>EASTBOUND</h2>
+                <img src="images/arrow_up.png" class="up-arrow">
+          </div>
+
+          <table>
+            <tbody>
+              <tr class="table-data-line">
+                <td class="bus-line">60</td>
+                <td class="bus-destination">RANDLOPH/ </br> HARBOR DRIVE <br><br> <p class="frequency"> EVERY 20 MIN</p> </td>
+                <td class="arrival-time"><p class="number">15</p> MINUTES <br><br> <p class="time"> 8:50AM</p></td>
+                <td class="right-arrow"><img src="images/arrow_right.png"></td>
+              </tr>
+              <tr class="table-data">
+                <td class="bus-line">124</td>
+                <td class="bus-destination-single">NAVY PIER <br><br><br> <p class="frequency-single"> EVERY 10 MIN</p> </td>
+                <td class="arrival-time"><p class="number">8</p> MINUTES <br><br> <p class="time"> 8:43AM</p></td>
+                <td class="right-arrow"><img src="images/arrow_right.png"></td>
+              </tr>
+            </tbody>
+          </table>
+
+            <div class="direction-northbound">
+                  <h2>NORTHBOUND</h2>
+                  <img src="images/arrow_up.png" class="up-arrow">
+            </div>
+
+          <table>
+            <tbody>
+              <tr class="table-data">
+                <td class="bus-line">151</td>
+                <td class="bus-destination-single">DEVON/CLARKE <br><br><br> <p class="frequency-single"> EVERY 16 MIN</p> </td>
+                <td class="arrival-time"><p class="number">14</p> MINUTES <br><br> <p class="time"> 8:49AM</p></td>
+                <td class="right-arrow"><img src="images/arrow_right.png"></td>
+              </tr>
+            </tbody>
+          </table>
+
+            <div class="direction-southbound">
+                  <h2>SOUTHBOUND</h2>
+                  <img src="images/arrow_up.png" class="up-arrow">
+            </div>
+
+          <table>
+            <tbody>
+              <tr class="table-data-line">
+                <td class="bus-line">J14</td>
+                <td class="bus-destination">103RD/ </br> STONY ISLAND <br><br> <p class="frequency"> EVERY 15 MIN</p> </td>
+                <td class="arrival-time"><p class="number">15</p> MINUTES <br><br> <p class="time"> 8:50AM</p></td>
+                <td class="right-arrow"><img src="images/arrow_right.png"></td>
+              </tr>
+              <tr class="table-data">
+                <td class="bus-line">60</td>
+                <td class="bus-destination-single">NAVY PIER <br><br><br> <p class="frequency-single"> EVERY 10 MIN</p> </td>
+                <td class="arrival-time"><p class="number">6</p> MINUTES <br><br> <p class="time"> 8:41AM</p></td>
+                <td class="right-arrow"><img src="images/arrow_right.png"></td>
+              </tr>
+            </tbody>
+          </table>
+
+            <div class="direction-rerouted">
+                  <h2>REROUTED</h2>
+                  <img src="images/arrow_up.png" class="up-arrow">
+            </div>
+
+          <table>
+            <tbody>
+              <tr class="table-data">
+                <td class="bus-line-rerouted">6x</td>
+                <td class="bus-destination-rr">JACKSON </br> PARK EXPRESS <br><br> <p class="frequency-rr"> N/A</p> </td>
+                <td class="arrival-time-rr"><p class="number">20</p> MINUTES <br><br> <p class="time"> 8:55AM</p></td>
+                <td class="right-arrow"><img src="images/arrow_right.png"></td>
+              </tr>
+            </tbody>
+          </table>
+
+            <div class="direction-oos">
+                  <h2>OUT OF SERVICE</h2>
+                  <img src="images/arrow_up.png" class="up-arrow">
+            </div>
+
+          <table>
+            <tbody>
+              <tr class="table-data-line">
+                <td class="bus-line-oos">4</td>
+                <td class="bus-destination-single">COTTAGE GROVE <br><br><br> <p class="frequency-single"> RESUMES 12:10AM</p> </td>
+                <td class="arrival-time"><p class="number-oos">N/A</p></td>
+                <td class="right-arrow"><img src="images/arrow_right.png"></td>
+              </tr>
+              <tr class="table-data-line">
+                <td class="bus-line-oos">20</td>
+                <td class="bus-destination-single">MADISON <br><br><br> <p class="frequency-single"> RESUMES 12:10AM</p> </td>
+                <td class="arrival-time"><p class="number-oos">N/A</p></td>
+                <td class="right-arrow"><img src="images/arrow_right.png"></td>
+              </tr>
+              <tr class="table-data">
+                <td class="bus-line-oos">157</td>
+                <td class="bus-destination">STREETERVILLE/ </br> TAYLOR <br><br> <p class="frequency"> RESUMES 6:00AM</p> </td>
+                <td class="arrival-time"><p class="number-oos">N/A</p></td>
+                <td class="right-arrow"><img src="images/arrow_right.png"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
